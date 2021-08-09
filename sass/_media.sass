@@ -1,0 +1,135 @@
+@media screen and ( max-width: 522px )
+    .container
+        padding: 0 20px
+    .header
+        margin-bottom: 40px
+        padding-top: 30px
+        .hidden
+            display: none
+        &__wrapper
+            grid-template-rows: repeat(2, 25px)
+            grid-template-columns: 1fr
+            justify-content: center
+            row-gap: 20px
+        &__logo
+            grid-row-start: 1
+            justify-self: center
+    .promo
+        &__logo
+            margin: 0 auto 20px
+        &__img
+            height: 347px
+            width: calc( 100% + 40px)
+            margin-bottom: 20px
+            position: relative
+            left: -20px
+            overflow: hidden
+            img
+                height: 100%
+                width: 100% 
+                object-fit: cover
+        &__title
+            font-size: 30px
+            line-height: 130%
+            margin-bottom: 10px
+    .descr
+        font-size: 16px
+        margin-bottom: 30px
+    .btn
+        width: 280px
+        font-size: 11px
+    .technologies
+        padding-top: 70px
+        img
+            margin-bottom: 14px
+    .clear
+        padding: 66px 0
+        &__item
+            .img
+                height: 200px
+                img
+                    height: 100%
+                    width: 100% 
+                    object-fit: cover
+        .title
+            margin-bottom: 15px
+        &__suptitle
+            font-size: 10px
+            height: 15px
+        &__title
+            height: 28px
+            font-size: 18px
+            margin-bottom: 1px
+            line-height: 28px
+        &__cost
+            height: 24px
+            font-size: 17px
+        &__new-cost
+            margin-right: 17px
+        &__old-cost
+            &::after
+                top: 46%
+        &__items
+            grid-template-rows: 279px 279px
+            grid-template-columns: 200px
+            align-items: center
+            width: 100%
+        &__descr
+            padding-top: 10px
+            height: 79px
+            &_fend,
+            &_fstart
+                align-items: center
+        &__btn 
+            display: none
+    .suptitle
+        font-size: 11px
+        margin-bottom: 5px
+    .title
+        font-size: 25px
+    .promocod
+        width: calc( 100% +  40px)
+        position: relative
+        left: -20px
+        padding: 30px 20px 20px
+        margin-bottom: 70px
+        .title
+            font-size: 45px
+            height: 56px
+            line-height: 56px
+        .descr
+            font-size: 14px
+            margin-bottom: 25px
+        .btn
+            margin-bottom: 15px
+
+    .footer
+        padding: 35px 16px 33px
+        &__wrapper
+            justify-content: center
+            justify-items: center
+            grid-template-rows: 25px 55px 37px 35px
+            row-gap: 25px
+        &__socials
+            justify-self: center
+        &__applications
+            justify-content: start
+            align-items: start
+            .appstore,
+            .googleplay
+                display: flex
+                justify-content: center
+                align-items: center 
+        &__call
+            height: 100%
+            align-items: center
+            justify-content: space-between
+            flex-direction: column-reverse
+            span
+                margin-top: 0
+                opacity: 0.6
+        &__privacy
+            justify-content: space-between
+            align-items: center
+
+            
